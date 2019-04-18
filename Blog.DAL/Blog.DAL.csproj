@@ -58,14 +58,18 @@
     <Compile Include="ORM\Enum\Role.cs" />
     <Compile Include="ORM\Enum\Status.cs" />
     <Compile Include="ORM\Interface\ICore.cs" />
+    <Compile Include="ORM\Map\AppUserMap.cs" />
+    <Compile Include="ORM\Map\ArticleMap.cs" />
+    <Compile Include="ORM\Map\CategoryMap.cs" />
+    <Compile Include="ORM\Map\CommentMap.cs" />
+    <Compile Include="ORM\Map\CoreMap.cs" />
+    <Compile Include="ORM\Map\LikeMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ORM\Map\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
