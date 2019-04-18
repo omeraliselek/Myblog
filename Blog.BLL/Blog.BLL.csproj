@@ -54,5 +54,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.DAL\Blog.DAL.csproj">
+      <Project>{3dd8926e-f85c-4ede-b60a-0f8ff52bb855}</Project>
+      <Name>Blog.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
