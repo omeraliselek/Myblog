@@ -48,11 +48,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ORM\Context\ProjectContext.cs" />
+    <Compile Include="ORM\Entity\AppUser.cs" />
+    <Compile Include="ORM\Entity\Article.cs" />
+    <Compile Include="ORM\Entity\BaseEntity.cs" />
+    <Compile Include="ORM\Entity\Category.cs" />
+    <Compile Include="ORM\Entity\Comment.cs" />
+    <Compile Include="ORM\Entity\Like.cs" />
+    <Compile Include="ORM\Enum\Role.cs" />
+    <Compile Include="ORM\Enum\Status.cs" />
+    <Compile Include="ORM\Interface\ICore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ORM\Map\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
