@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Blog.DAL.ORM.Context
 {
-    class ProjectContext : DbContext
+    public class ProjectContext : DbContext
     {
         public ProjectContext()
         {
