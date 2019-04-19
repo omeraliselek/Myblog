@@ -9,5 +9,6 @@ namespace Blog.BLL.Repository
 {
     public class LikeRepository:BaseRepository<Like>
     {
+
     }
 }
